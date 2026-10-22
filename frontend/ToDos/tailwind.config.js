@@ -7,6 +7,6 @@ export default {
   },
   plugins: [daisyui],
   daysiui: {
-    themes: ["synthwave", "forest", "dracula", "dim"],
+    themes: ["forest", "dracula", "dim"],
   },
 };
