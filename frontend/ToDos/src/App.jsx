@@ -8,7 +8,7 @@ const App = () => {
   //create your pages here and import them in the App.jsx file and use them in the return statement of the App component
 
   return (
-    <div data-theme="dracula">
+    <div data-theme="dim">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/create" element={<CreatePage />} />
