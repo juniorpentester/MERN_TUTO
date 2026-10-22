@@ -8,11 +8,11 @@ const Navbar = () => {
       <div className="mx-auto max-w-6xl p-4">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-bold text-primary font-mono tracking-tight">
-            Axel Note Application
+            OffSec Phases
           </h1>
 
           <div className="flex items-center gap-4">
-            <Link to={"/create"} className="btn btn-primary">
+            <Link to={"/create"} className="btn btn-ghost btn-primary">
               <PlusIcon className="size-5" />
               <span>new note</span>
             </Link>
